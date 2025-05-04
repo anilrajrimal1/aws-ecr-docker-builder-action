@@ -1,5 +1,5 @@
-name: Build Docker Image
-description: Builds and pushes a Docker image to AWS ECR.
+name: Build and Push Docker Image to ECR
+description: GitHub Action to build a Docker image and push it to Amazon ECR.
 author: "Anil Raj Rimal" 
 
 inputs:
