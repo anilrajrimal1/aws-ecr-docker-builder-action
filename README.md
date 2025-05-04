@@ -3,6 +3,9 @@
 
 This GitHub Action automates the process of building and pushing Docker images to Amazon Elastic Container Registry (ECR). It simplifies the integration of Docker builds into your CI/CD pipeline, handling AWS credentials, image tagging, and pushing to the specified ECR repository.
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/anilrajrimal1/aws-ecr-docker-builder-action)](https://github.com/anilrajrimal1/aws-ecr-docker-builder-action/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Features
 
 - **AWS ECR Integration**: Seamlessly build and push Docker images to Amazon ECR.
