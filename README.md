@@ -58,7 +58,7 @@ jobs:
         id: extract_branch
 
       - name: Build and Push Image to ECR
-        uses: anilrajrimal/aws-ecr-docker-builder-action@v1.0.0
+        uses: anilrajrimal1/aws-ecr-docker-builder-action@v1.0.0
         with:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
